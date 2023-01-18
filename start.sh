@@ -1,8 +1,8 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Cyniteofficial/Auto-Filter-V5.git /Auto-Filter-V5
-else
+  git clone  /Auto-Filter-V5
+elsehttps://github.com/Moviesboltz/Auto-Filter-V5.git
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Auto-Filter-V5
 fi
